@@ -12,3 +12,4 @@ if(mysqli_query($conn, $quary_sql)) {
 } else {
     echo "pendaftaran Gagal : " . mysqli_error($conn);
 }
+
